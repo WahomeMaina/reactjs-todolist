@@ -12,7 +12,7 @@ const [todoValue, setTodoValue] = useState('');
     }
 
     function handleAddTodos(newTodo) { 
-      const newToDoList = [...todos, ...newTodo]
+      const newToDoList = [...todos, newTodo]
       persistData(newToDoList);
       setTodos(newToDoList);
     }
