@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function TodoCard(props) {
     const {children, handleRemoveTodos, index, handleEditTodos} = props
   return (

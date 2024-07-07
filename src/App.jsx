@@ -19,14 +19,14 @@ const [todoValue, setTodoValue] = useState('');
     function handleEditTodos(index) {
       const valueToBeEdited = todos[index]
       setTodoValue(valueToBeEdited);
-      handleRemoveTodos(index);;
+      handleRemoveTodos(index);
     }
 
     function handleRemoveTodos(index) {
       const newTodoList = todos.filter((todo, todoIndex) =>{
         return todoIndex != index
       })
-      persistData(newToDoList);
+      persistData(newTodoList);
       setTodos(newTodoList);
     }
     useEffect(() => {

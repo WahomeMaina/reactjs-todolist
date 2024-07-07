@@ -4,4 +4,5 @@ This simple app implements crud application for a todo list with data persisitin
 
 Enjoy.
 
-- [Visit My Site](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) Eric Wahome, Full Stack Software Developer.
+- [Visit My Site](https://github.com/WahomeMaina) Eric Wahome, Full Stack Software Developer.
+- [Live Demo](https://reactjs-todolist-by-wahome.netlify.app/) View live demo.
